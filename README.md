@@ -31,3 +31,7 @@ feel comfortable with.
 Please don't hesitate to make any questions. The idea of this exercise is
 for us to be able to understand the way you design your code and the way you
 work around the problems you find. Feel free to Google whatever you need.
+
+# Health endpoint
+
+In order to be able to monitor our
