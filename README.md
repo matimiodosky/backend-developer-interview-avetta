@@ -34,4 +34,14 @@ work around the problems you find. Feel free to Google whatever you need.
 
 # Health endpoint
 
-In order to be able to monitor our
+In order to monitor our services, we have implemented a health endpoint
+on each of them. These endpoints work by sending a request to each
+of the dependencies that services has, and checking whether all
+of them are available. If all dependencies are available, then the service
+is healthy.
+
+Your task is to implement the health endpoint using external 
+dependencies. You can pick any dependency you want (it can be google.com)
+or any other available server.
+
+The response should be successful only if all dependencies are available.
